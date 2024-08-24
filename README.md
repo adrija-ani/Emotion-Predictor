@@ -11,8 +11,9 @@ This project implements a Naive Bayes classifier to predict emotions from textua
 ## Installation
 You can install the required packages using pip:
 
-'''bash
+```bash
 pip install pandas scikit-learn seaborn matplotlib
+```
 ## Dataset
 The dataset used is a CSV file containing two columns:
 
@@ -24,8 +25,9 @@ Make sure to have the dataset file at the specified path or update the dataset v
 * Ensure all dependencies are installed.
 * Place the dataset in the specified location or modify the path in the code.
 * Run the Python script:
-bash
+```bash
 python emotion_classifier.py
+```
 * After the script runs, it will display:
 * Model Accuracy
 * Confusion Matrix as a heatmap
@@ -33,9 +35,10 @@ python emotion_classifier.py
 * Enter a comment when prompted, and the model will predict the associated emotion.
 
 ## Example Usage
-bash
+```bash
 Enter something: I am so excited for the new project!
 Predicted Emotion: ['joy']
+```
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
